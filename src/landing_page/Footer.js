@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -6,50 +7,54 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img
+              src="media/images/logo.svg"
+              style={{ width: "50%" }}
+              alt="StockWave logo"
+            />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
             <p>Company</p>
-            <a href="">About</a>
+            <Link to="/about">About</Link>
             <br />
-            <a href="">Products</a>
+            <Link to="/product">Products</Link>
             <br />
-            <a href="">Pricing</a>
+            <Link to="/pricing">Pricing</Link>
             <br />
-            <a href="">Referral programme</a>
+            <Link to="/signup">Referral programme</Link>
             <br />
-            <a href="">Careers</a>
+            <Link to="/about">Careers</Link>
             <br />
-            <a href="">Zerodha.tech</a>
+            <Link to="/product">Zerodha.tech</Link>
             <br />
-            <a href="">Press & media</a>
+            <Link to="/about">Press & media</Link>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <Link to="/about">Zerodha cares (CSR)</Link>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a href="">Contact</a>
+            <Link to="/support">Contact</Link>
             <br />
-            <a href="">Support portal</a>
+            <Link to="/support">Support portal</Link>
             <br />
-            <a href="">Z-Connect blog</a>
+            <Link to="/support">Z-Connect blog</Link>
             <br />
-            <a href="">List of charges</a>
+            <Link to="/pricing">List of charges</Link>
             <br />
-            <a href="">Downloads & resources</a>
+            <Link to="/product">Downloads & resources</Link>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="">Open an account</a>
+            <Link to="/signup">Open an account</Link>
             <br />
-            <a href="">Fund transfer</a>
+            <Link to="/support">Fund transfer</Link>
             <br />
-            <a href="">60 day challenge</a>
+            <Link to="/support">60 day challenge</Link>
             <br />
           </div>
         </div>

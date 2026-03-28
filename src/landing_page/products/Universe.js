@@ -11,27 +11,30 @@ function Universe() {
         </p>
 
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
+          <img src="media/images/smallcaseLogo.png" alt="smallcase logo" />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/streakLogo.png" />
+          <img src="media/images/streakLogo.png" alt="Streak logo" />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/sensibullLogo.svg" />
+          <img src="media/images/sensibullLogo.svg" alt="Sensibull logo" />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/zerodhaFundhouse.png" />
+          <img
+            src="media/images/zerodhaFundhouse.png"
+            alt="Zerodha Fund House logo"
+          />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/goldenpiLogo.png" />
+          <img src="media/images/goldenpiLogo.png" alt="GoldenPi logo" />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/dittoLogo.png" />
+          <img src="media/images/dittoLogo.png" alt="Ditto logo" />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <button
