@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Team() {
   return (
@@ -15,6 +16,7 @@ function Team() {
           <img
             src="media/images/nithinKamath.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
+            alt="Nithin Kamath"
           />
           <h4 className="mt-5">Nithin Kamath</h4>
           <h6>Founder, CEO</h6>
@@ -32,10 +34,10 @@ function Team() {
           <p>Playing basketball is his zen.</p>
           <p>
             Connect on{" "}
-            <a href="" style={{ textDecoration: "none" }}>Homepage</a> /{" "}
-             <a href="" style={{ textDecoration: "none" }}>TradingQnA</a> /{" "}
-             <a href="" style={{ textDecoration: "none" }}>Twitter</a>
-             </p>
+            <Link to="/about" style={{ textDecoration: "none" }}>Homepage</Link> /{" "}
+            <Link to="/support" style={{ textDecoration: "none" }}>TradingQnA</Link> /{" "}
+            <Link to="/about" style={{ textDecoration: "none" }}>Twitter</Link>
+          </p>
         </div>
       </div>
     </div>
