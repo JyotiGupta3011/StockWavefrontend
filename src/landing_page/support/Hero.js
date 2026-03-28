@@ -1,11 +1,22 @@
 import React from "react";
 
+const linkButtonStyle = {
+  background: "none",
+  border: "none",
+  padding: 0,
+  color: "#0d6efd",
+  textDecoration: "underline",
+  cursor: "pointer",
+};
+
 function Hero() {
   return (
     <section className="container-fluid" id="supportHero">
       <div className="p-5 " id="supportWrapper">
         <h4>Support Portal</h4>
-        <a href="">Track Tickets</a>
+        <button type="button" style={linkButtonStyle}>
+          Track Tickets
+        </button>
       </div>
       <div className="row p-5 m-3">
         <div className="col-6 p-3">
@@ -14,19 +25,31 @@ function Hero() {
           </h1>
           <input placeholder="Eg. how do I activate F&O" />
           <br />
-          <a href="">Track account opening</a>
-          <a href="">Track segment activation</a>
-          <a href="">Intraday margins</a>
-          <a href="">Kite user manual</a>
+          <button type="button" style={linkButtonStyle}>
+            Track account opening
+          </button>
+          <button type="button" style={linkButtonStyle}>
+            Track segment activation
+          </button>
+          <button type="button" style={linkButtonStyle}>
+            Intraday margins
+          </button>
+          <button type="button" style={linkButtonStyle}>
+            Kite user manual
+          </button>
         </div>
         <div className="col-6 p-3">
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li>
-              <a href="">Current Takeovers and Delisting - January 2024</a>
+              <button type="button" style={linkButtonStyle}>
+                Current Takeovers and Delisting - January 2024
+              </button>
             </li>
             <li>
-              <a href="">Latest Intraday leverages - MIS & CO</a>
+              <button type="button" style={linkButtonStyle}>
+                Latest Intraday leverages - MIS & CO
+              </button>
             </li>
           </ol>
         </div>
